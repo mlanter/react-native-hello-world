@@ -33,20 +33,20 @@ class HelloWorld extends Component {
 
 const STYLES = StyleSheet.create({
   container: {
+    alignItems: 'center',
+    backgroundColor: '#f5fcff',
     flex: 1,
     justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
   },
   welcome: {
     fontSize: 20,
-    textAlign: 'center',
     margin: 10,
+    textAlign: 'center',
   },
   instructions: {
-    textAlign: 'center',
     color: '#333333',
     marginBottom: 5,
+    textAlign: 'center',
   },
 });
 
